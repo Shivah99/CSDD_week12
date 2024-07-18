@@ -1,10 +1,10 @@
 package main
 
-// CalculateSquareArea calculates the area of a square given its side length.
-// Parameters:
-//  side - The length of a side of the square.
-// Returns:
-//  The area of the square.
-func CalSqArea(side int) int {
-	return side * side
+// Calculatiing area of a square.
+//  length - The length of one side of the square.
+
+func CalSqArea(length int) int {
+	// Area of a square = length * length
+	// returns the area of the square
+	return length * length
 }
